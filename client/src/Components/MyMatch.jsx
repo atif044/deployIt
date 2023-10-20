@@ -35,6 +35,7 @@ const MyMatch = () => {
           }
           }
           fetchData();
+          //eslint-disable-next-line
     }, [])     
   return (
     <div>

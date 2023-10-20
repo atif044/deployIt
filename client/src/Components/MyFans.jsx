@@ -26,6 +26,7 @@ const MyFans = () => {
       }
     }
     fetchData();
+    //eslint-disable-next-line
   },[])
   return (
     <div>

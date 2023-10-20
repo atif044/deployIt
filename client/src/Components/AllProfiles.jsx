@@ -36,6 +36,7 @@ const AllProfiles = () => {
   useEffect(() => {
     
     fetchData();
+    //eslint-disable-next-line
   },[])
   return (
     <div>

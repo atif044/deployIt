@@ -92,6 +92,7 @@ useEffect(() => {
     setInterestArr(largeObject?.Interests)
     setHobbiesArr(largeObject?.Hobbies)
   }
+  //eslint-disable-next-line
 }, [])
   return (
     <>   
