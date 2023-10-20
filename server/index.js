@@ -8,7 +8,7 @@ const app=express();
 const auth=require('./Routes/userRoutes')
 const adminAuth=require('./Routes/adminRoutes')
 app.use(express.json());
-app.use(cors({ origin: 'http://35.78.201.240:1026', credentials: true }))
+app.use(cors({ origin: 'http://18.181.186.209:1026', credentials: true }))
 app.options('*',cors())
 app.use(cookieParser())
 app.listen(process.env.PORT)
