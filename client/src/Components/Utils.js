@@ -1,2 +1,2 @@
-const link="http://35.78.201.240:1025"
+const link="http://18.181.186.209:1025"
 module.exports={link:link}
